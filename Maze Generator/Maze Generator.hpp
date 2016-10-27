@@ -42,7 +42,7 @@ public:
     static std::vector<std::vector<int>> getMazeArray() { return a; }
     static std::vector<std::vector<int>> getDistArray() { return dist; }
     static std::vector<std::pair<int, int>> getPathCoordinates();
-    static void printMaze(std::vector<std::vector<int>> a); // Debugging purposes
+    static void printMaze(std::vector<std::vector<int>> a);
 };
 
 #endif /* MazeGenerator_hpp */
